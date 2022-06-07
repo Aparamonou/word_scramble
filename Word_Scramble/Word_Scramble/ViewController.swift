@@ -19,6 +19,7 @@ class ViewController: UITableViewController {
           setRightButtonItem()
           setLeftBarItem()
           navigationController?.navigationBar.prefersLargeTitles = true
+         print("Hello")
      }
      
      override func viewWillAppear(_ animated: Bool) {
